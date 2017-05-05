@@ -112,6 +112,10 @@
   function give() {
     var given = +document.getElementById("amount").value;
     var remaining = +document.getElementById("remaining").innerHTML;
+    if (remaining == 0) {
+      document.getElementById('main').innerHTML = '<div> Thanks your support. The funding round has ended.'
+      return false;
+    }
     if (given == 0) {
       alert('Please enter an amount');
     }
@@ -119,9 +123,6 @@
       alert('Please enter amount less than Rs.' + remaining);
       document.getElementById("amount").value = 0;
       return false;
-    }
-    if (remaining == 0) {
-      document.getElementById('main').innerHTML = '<div> Thanks your support. The funding round has ended.'
     }
     remaining -= given;
     document.getElementById("remaining").innerHTML = remaining;
