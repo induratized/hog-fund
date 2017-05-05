@@ -61,7 +61,9 @@
         <!--<div class="progress-sub"></div>-->
       </div>
       <div class="main">
-        <div><span id="remaining-fund">100</span>% remaining
+        <div style="margin-bottom: 10px;">
+          <span id="remaining-fund">100</span>
+          % fund gathered</div>
         <input id="amount" type="text">
         <button id="submit" onclick="give()">Give</button>
       </div>
@@ -69,19 +71,16 @@
   </body>
     <script>
       var total = +document.getElementById("remaining").innerHTML;
-      window.onload = function () {
 
-        alert('onload')
-      }
       function give () {
         var given = +document.getElementById("amount").value;
         var remaining = +document.getElementById("remaining").innerHTML;
         remaining -= given;
         document.getElementById("remaining").innerHTML= remaining;
         var progress = (total - remaining) / total * 100;
-        alert(progress);
+        // alert(progress);
         document.getElementById("progress-main").style.width = progress + '%';
-        
+        document.getElementById("remaining-fund").innerHTML = progress
       }
     </script>
 </html>
