@@ -1,32 +1,32 @@
 # Step to perform eslint
 
 ##  Install eslint 
-  1. locally - under your sandbox/src/main/ folder via the below npm code
+  1. Locally - under your sandbox/src/main/ folder via the below npm code
 
     `npm i -D eslint`
-  2. globally 
+  2. Globally 
 
     `npm i -D eslint -g`
 
 ##  Run eslint for you file/project folder
-  **via local eslint install change to your src/main folder**
-  1. for all js files under webapp
+  **Via local eslint install change to your src/main folder**
+  1. For all js files under webapp
 
       `eslint ./`
       
-  2. for specific file/folder
+  2. For specific file/folder
 
       `eslint <file_folder_path>`
 
-  **via global eslint**
+  **Via global eslint**
+  1. For all files and folder
 
-    eslint <file_folder_path>
+      `eslint <file_folder_path>`
 
+  **Auto-fix**
   3. to perform fixes that eslint can do (for ex. semi colons , single quotes), suffix
   
-    `--fix` 
-    
-    flag to the above two eslint syntax
+      `--fix` flag to the above two eslint syntax
 
 ##  Ignore file/folder from parsing
     To make eslint ignore any file or folder include there path in '.eslintignore' file. 
