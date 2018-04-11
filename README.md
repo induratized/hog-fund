@@ -33,36 +33,38 @@
 
 
 # Common angular/js style guide as prescribed by eslint 
-1. **The indexController controller should follow this pattern: /[A-Z].*Controller$/**
+_ **The indexController controller should follow this pattern: /[A-Z].*Controller$/**
 
   controller name should start with capital letter.
-2. **You should use the function syntax for DI**
+
+_ **You should use the function syntax for DI**
 
   to force user to abide by the function syntax under controller definition `.controller([ [<injection_names_string,>[, <injection_names_string>]] , function([<injection_names_string,>[, <injection_names_string>]] )])` used the eslint rule "angular/di" - see .eslintrc
 
 ##  Best for testing purpose
-3. **You should use the `$window` service instead of the default `window` object**
+_ **You should use the `$window` service instead of the default `window` object**
   
   https://docs.angularjs.org/api/ng/service/$window
-4. **You should not set properties on $scope in controllers. Use controllerAs syntax and add data to "this"**
+
+_ **You should not set properties on $scope in controllers. Use controllerAs syntax and add data to "this"**
   
   https://toddmotto.com/digging-into-angulars-controller-as-syntax/ 
 
-5. **You should not use "this" directly. Instead, assign it to a variable called "vm"**
+_ **You should not use "this" directly. Instead, assign it to a variable called "vm"**
   
   https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/rules/controller-as-vm.md
 
-6. **You should use the `$interval` service instead of the default `window.setInterval` method**
+_ **You should use the `$interval` service instead of the default `window.setInterval` method**
 
-7. **You should use the `$timeout` service instead of the default `window.setTimeout` method**
+_ **You should use the `$timeout` service instead of the default `window.setTimeout` method**
 
-8. **Using $$-prefixed Angular objects/methods are not recommended**
+_ **Using $$-prefixed Angular objects/methods are not recommended**
 
   eg. ` $location.$$search(<paran_name>) ` don't use them
 
-9. **You should use the "log" method of the AngularJS Service $log instead of the console object**
+_ **You should use the "log" method of the AngularJS Service $log instead of the console object**
   inject $log service and use `$log.log`, `$log.info`, `$log.error` etc instead of `console` object's methods
 
-10. **You should use the `angular.toJson` method instead of `JSON.stringify`**
+_ **You should use the `angular.toJson` method instead of `JSON.stringify`**
 
-11. **You should use the `angular.fromJson` method instead of `JSON.parse`**
+_ **You should use the `angular.fromJson` method instead of `JSON.parse`**
