@@ -10,14 +10,11 @@
 
 ##  Run eslint for you file/project folder
   **via local eslint install - cd to your src/main folder**
-    _ for all js files under webapp
-
+  1. for all js files under webapp
 
       eslint ./
-
-
-    _ for specific file/folder
-
+      
+  2. for specific file/folder
 
       eslint <file_folder_path>
 
