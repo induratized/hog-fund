@@ -11,7 +11,7 @@
     for all js files under webapp
       `eslint ./`
     for specific file/folder
-    `eslint <file_folder_path>`
+      `eslint <file_folder_path>`
 
   _ **via global eslint**
     `eslint <file_folder_path>`
