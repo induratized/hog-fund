@@ -8,10 +8,15 @@
 
 ##  Run eslint for you file/project folder
   _ **via local eslint install - cd to your src/main folder**
+
     for all js files under webapp
+
       `eslint ./`
+
     for specific file/folder
+
       `eslint <file_folder_path>`
+      
 
   _ **via global eslint**
     `eslint <file_folder_path>`
@@ -19,7 +24,8 @@
   _ to perform fixes that eslint can do (for ex. semi colons , single quotes) suffix `--fix` flag to the above two eslint syntax
 
 ##  Ignore file/folder from parsing
-    To make eslint ignore any file or folder include there path in '.eslintignore' file. For more info see - https://eslint.org/docs/user-guide/configuring#ignoring-files-and-directories
+    To make eslint ignore any file or folder include there path in '.eslintignore' file. 
+    For more info see - https://eslint.org/docs/user-guide/configuring#ignoring-files-and-directories
 
 
 # Common angular/js style guide as prescribed by eslint 
