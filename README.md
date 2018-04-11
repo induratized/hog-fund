@@ -12,7 +12,7 @@
   **via local eslint install - cd to your src/main folder**
   1. for all js files under webapp
 
-      eslint ./
+      `eslint ./`
       
   2. for specific file/folder
 
