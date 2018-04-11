@@ -2,8 +2,10 @@
 
 ##  Install eslint 
   _ **locally under your sandbox/src/main/ folder via the below npm code**
+
     `npm i -D eslint`
   _ **or globally via**
+  
     `npm i -D eslint -g`
 
 ##  Run eslint for you file/project folder
@@ -11,10 +13,8 @@
 
     for all js files under webapp
       `eslint ./`
-
     for specific file/folder
       `eslint <file_folder_path>`
-      
 
   _ **via global eslint**
     `eslint <file_folder_path>`
