@@ -16,7 +16,7 @@
   _ **via global eslint**
     `eslint <file_folder_path>`
 
-  _ **to perform fixes that eslint can do (for ex. semi colons , single quotes) suffix `--fix` flag to the above two eslint syntax**
+  _ to perform fixes that eslint can do (for ex. semi colons , single quotes) suffix `--fix` flag to the above two eslint syntax
 
 ##  Ignore file/folder from parsing
     To make eslint ignore any file or folder include there path in '.eslintignore' file. For more info see - https://eslint.org/docs/user-guide/configuring#ignoring-files-and-directories
