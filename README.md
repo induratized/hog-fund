@@ -10,11 +10,14 @@
 
 ##  Run eslint for you file/project folder
   **via local eslint install - cd to your src/main folder**
+    _ for all js files under webapp
 
-    **for all js files under webapp**
-      
+
       eslint ./
-    **for specific file/folder**
+
+
+    _ for specific file/folder
+
 
       eslint <file_folder_path>
 
@@ -22,11 +25,10 @@
 
     eslint <file_folder_path>
 
-  **to perform fixes that eslint can do (for ex. semi colons , single quotes), suffix**
+  _ to perform fixes that eslint can do (for ex. semi colons , single quotes), suffix
   
     --fix 
-
-  **flag to the above two eslint syntax**
+    flag to the above two eslint syntax
 
 ##  Ignore file/folder from parsing
     To make eslint ignore any file or folder include there path in '.eslintignore' file. 
