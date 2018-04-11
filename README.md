@@ -10,11 +10,9 @@
   _ **via local eslint install - cd to your src/main folder**
 
     for all js files under webapp
-
       `eslint ./`
 
     for specific file/folder
-
       `eslint <file_folder_path>`
       
 
