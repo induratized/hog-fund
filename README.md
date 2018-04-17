@@ -32,7 +32,7 @@
 
 _ The indexController controller should follow this pattern: /[A-Z].*Controller$/
 
-  controller name should start with capital letter.
+  *controller name should start with capital letter.*
 
 _ **You should use the function syntax for DI**
 
