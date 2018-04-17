@@ -9,9 +9,11 @@
 
 ##  Run eslint for you file/project folder
   **For all js files under webapp**
+
     `npm run eslint -- <webapp_js_folder_path>`
       
   **For specific file/folder**
+  
     `npm run eslint -- <file_folder_path>`
 
   **To perform fixes that eslint can do (for ex. semi colons , single quotes)** 
