@@ -30,7 +30,7 @@
 
 # Common angular/js style guide as prescribed by eslint 
 
-_ #The indexController controller should follow this pattern: /[A-Z].*Controller$/
+- The indexController controller should follow this pattern: /[A-Z].*Controller$/
 
   *controller name should start with capital letter.*
 
