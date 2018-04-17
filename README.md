@@ -31,7 +31,6 @@
 # Common angular/js style guide as prescribed by eslint 
 
 - The indexController controller should follow this pattern: /[A-Z].*Controller$/
-
   `controller name should start with capital letter.`
 
 - You should use the function syntax for DI
