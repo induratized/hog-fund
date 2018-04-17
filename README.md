@@ -12,27 +12,29 @@
 ##  Run eslint for you file/project folder
   **For all js files under webapp**
 
-    `npm run eslint -- <webapp_js_folder_path>`
+    npm run eslint -- <webapp_js_folder_path>
       
   **For specific file/folder**
 
-    `npm run eslint -- <file_folder_path>`
+    npm run eslint -- <file_folder_path>
 
   **For AUTO-FIXes that eslint can do (for ex. semi colons , single quotes)** 
 
-    `npm run eslintfix -- <file_folder_path>`
+    npm run eslintfix -- <file_folder_path>
 
 ##  Ignore file/folder from eslint parsing
+
     To make eslint ignore any file or folder include there path in '.eslintignore' file. 
     For more info see - https://eslint.org/docs/user-guide/configuring#ignoring-files-and-directories
 
 
 # Common angular/js style guide as prescribed by eslint 
+
 _ **The indexController controller should follow this pattern: /[A-Z].*Controller$/**
 
   controller name should start with capital letter.
 
-_ **You should use the function syntax for DI**
+_ **You should use the function* syntax for DI**
 
   to force user to abide by the function syntax under controller definition `.controller([ [<injection_names_string,>[, <injection_names_string>]] , function([<injection_names_string,>[, <injection_names_string>]] )])` used the eslint rule "angular/di" - see .eslintrc
 
