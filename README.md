@@ -38,7 +38,7 @@
 
   to force user to abide by the function syntax under controller definition 
   
-  .controller([ [<injection_names_string,>[, <injection_names_string>]] , function([<injection_names_string,>[, <injection_names_string>]] )])
+  `.controller([ [<injection_names_string,>[, <injection_names_string>]] , function([<injection_names_string,>[, <injection_names_string>]] )])`
   
   used the eslint rule "angular/di" - see .eslintrc
 
