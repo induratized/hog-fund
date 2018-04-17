@@ -3,11 +3,11 @@
 ##  Install eslint dependencies
   **Install eslint globally**
 
-    `npm i eslint -g`
+    npm i eslint -g
 
   **Install other dependencies - navigate to src/main/ folder and run**
 
-    `npm install`
+    npm install
 
 ##  Run eslint for you file/project folder
   **For all js files under webapp**
