@@ -30,11 +30,11 @@
 
 # Common angular/js style guide as prescribed by eslint 
 
-_ **The indexController controller should follow this pattern: /[A-Z].*Controller$/**
+_ The indexController controller should follow this pattern: /[A-Z].*Controller$/
 
   controller name should start with capital letter.
 
-_ **You should use the function* syntax for DI**
+_ **You should use the function syntax for DI**
 
   to force user to abide by the function syntax under controller definition `.controller([ [<injection_names_string,>[, <injection_names_string>]] , function([<injection_names_string,>[, <injection_names_string>]] )])` used the eslint rule "angular/di" - see .eslintrc
 
