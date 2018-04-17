@@ -2,9 +2,11 @@
 
 ##  Install eslint dependencies
   **Install eslint globally**
+
     `npm i eslint -g`
 
   **Install other dependencies - navigate to src/main/ folder and run**
+
     `npm install`
 
 ##  Run eslint for you file/project folder
@@ -13,10 +15,11 @@
     `npm run eslint -- <webapp_js_folder_path>`
       
   **For specific file/folder**
-  
+
     `npm run eslint -- <file_folder_path>`
 
-  **To perform fixes that eslint can do (for ex. semi colons , single quotes)** 
+  **For AUTO-FIXes that eslint can do (for ex. semi colons , single quotes)** 
+
     `npm run eslintfix -- <file_folder_path>`
 
 ##  Ignore file/folder from eslint parsing
